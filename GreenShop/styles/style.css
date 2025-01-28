@@ -1,0 +1,52 @@
+body {
+      background-image: url("../img/key.webp");
+    font-family: "Roboto Light",sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .form_container {
+      background-color: white;
+      width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .register_button {
+      background-color: #7dcf39;
+      width: 100%;
+      padding: 8px 12px;
+      outline: none;
+      border: 0px;
+    }
+    .imputstyle {
+      width:93%;
+      margin-bottom: 15px;
+      padding:8px 12px;
+    }
+    .haaderlink {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+      font-size: 25px;
+    }
+    .click {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .registercolor {
+      color: #7dcf39;
+    }
+    p {
+        color: #888282;
+    }
+    span {
+        color: #df0202;
+        font-style: oblique;
+    }
+    #google {
+        width: 15px;
+    }
+    #facebook {
+        width: 17px;
+    }
+
+
