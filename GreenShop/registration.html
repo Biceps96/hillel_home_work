@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Register</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -17,46 +19,8 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
-
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
-  <style>
-    body {
-      background-color: #afafaf;
-    font-family: "Roboto Light",sans-serif;
-    }
-    .form_container {
-      background-color: white;
-      width: 400px;
-      margin: 50px auto;
-      padding: 20px;
-    }
-    .register_button {
-      background-color: #7dcf39;
-      width: 100%;
-      padding: 8px 12px;
-      outline: none;
-      border: 0px;
-    }
-    .imputstyle {
-      width:93%;
-      margin-bottom: 15px;
-      padding:8px 12px;
-    }
-    .haaderlink {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-      font-size: 25px;
-    }
-    .click {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-    .registercolor {
-      color: #7dcf39;
-    }
-  </style>
 </head>
 
 <body>
@@ -72,15 +36,15 @@
     <a href="">
     <h5>Login</h5>
   </a>
-  <h5 class="registercolor">Register</h5>
+  <h5 class="registercolor" >Register</h5>
   </div>
 
-  <p>Enter your email and password to register</p>
+  <p style="font-size: 20px">Enter your email and password to register</p>
 
   <div>
     <form action="">
       <input class="imputstyle" type="text" placeholder="Username">
-      <input class="imputstyle" type="text" placeholder="Enter your email address">
+      <input class="imputstyle" type="email" placeholder="Enter your email address">
       <input class="imputstyle" type="password" placeholder="Password">
       <input class="imputstyle" type="password" placeholder="Confirm Password">
       <button class="register_button">Register</button>
@@ -89,8 +53,8 @@
 
   <div style="text-align: center">
     <p>Or register with</p>
-    <button class="click">Continue with Google</button>
-    <button class="click">Continue with Facebook</button>
+    <button class="click">Continue with <span>Google</span> <img src="img/google.webp" alt="" id="google"></button>
+    <button class="click">Continue with <span>Facebook</span> <img src="img/facebook.png" alt="" id="facebook"></button>
   </div>
 </div>
 
